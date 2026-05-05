@@ -4,6 +4,8 @@ The purpose of this wiki is to document important computational techniques emplo
 
 The site is currently a work in progress. 
 
+Visit the wiki at: https://MSCE-Brown.github.io/MCSE-Wiki/
+
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
