@@ -1,1 +1,32 @@
-site_name: My Docs
+site_name: Qi Group Wiki
+theme:
+  name: material
+  features:
+    - navigation.sections      # left sidebar groups
+    - navigation.expand         # auto-expand sections
+    - navigation.tracking       # URL updates as you scroll
+    - toc.follow                # right TOC highlights current position
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - HPC Access: getting-started/hpc.md
+    - Software Setup: getting-started/software.md
+  - Tutorials:
+    - LAMMPS: tutorials/lammps.md
+    - DeepMD: tutorials/deepmd.md
+  # ... etc
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition              # nice callout boxes
+  - pymdownx.highlight      # code syntax highlighting
+  - pymdownx.superfences    # fenced code blocks
+  - pymdownx.arithmatex:    # LaTeX math rendering
+      generic: true
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
