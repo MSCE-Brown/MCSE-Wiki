@@ -1,5 +1,9 @@
 # Welcome to the Qi Group Wiki!
 
+The purpose of this wiki is to document important computational techniques employed by Professor Qi's MSCE group at Brown University. This site is implemented in mkdocs material, allowing for simple and easy addition of content through markdown files. 
+
+The site is currently a work in progress. 
+
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
